@@ -4,6 +4,7 @@
   "description": "Supernova is a project to use manage such as timesheet and salary. This is a backend codebase",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,5 +27,10 @@
   },
   "engines": {
     "node": "8.11.2"
-  }
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ]
 }
