@@ -1,4 +1,7 @@
-const { ENV } = process.env;
+const {
+  PORT,
+  ENV
+} = process.env;
 
 const config = {
   dev: {
@@ -12,7 +15,7 @@ const config = {
 const appEnv = ENV || 'dev';
 const { DB_URL } = config[appEnv];
 
-const appPort = 5000;
+const appPort = PORT || 5000;
 
 const mongoUrl = DB_URL;
 
