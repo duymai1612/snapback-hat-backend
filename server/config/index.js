@@ -5,7 +5,7 @@ const {
 
 const config = {
   dev: {
-    DB_URL: "mongodb://snapbackhat1:snapbackhat1@ds263660.mlab.com:63660/snapbackhat"
+    DB_URL: "mongodb://localhost/snapbackhat"
   },
   prod: {
     DB_URL: "mongodb://snapbackhat1:snapbackhat1@ds263660.mlab.com:63660/snapbackhat"
