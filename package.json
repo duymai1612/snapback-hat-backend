@@ -26,7 +26,8 @@
     "mongoose-bcrypt": "^1.5.1"
   },
   "engines": {
-    "node": "8.11.2"
+    "node": "8.11.0",
+    "npm": "5.6.0"
   },
   "keywords": [
     "node",
