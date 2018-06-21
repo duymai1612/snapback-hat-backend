@@ -1,0 +1,30 @@
+{
+  "name": "supernova-backend",
+  "version": "1.0.0",
+  "description": "Supernova is a project to use manage such as timesheet and salary. This is a backend codebase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kieutridang/supernova-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kieutridang/supernova-backend/issues"
+  },
+  "homepage": "https://github.com/kieutridang/supernova-backend#readme",
+  "dependencies": {
+    "koa": "^2.5.1",
+    "koa-body": "^4.0.3",
+    "koa-router": "^7.4.0",
+    "moment": "^2.22.2",
+    "mongoose": "^5.1.4",
+    "mongoose-bcrypt": "^1.5.1"
+  },
+  "engines": {
+    "node": "8.11.2"
+  }
+}
