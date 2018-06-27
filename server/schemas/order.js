@@ -27,7 +27,7 @@ var OrderSchema = new Schema({
 			message: 'Invalid date'
 		},
 		required: [true, 'Date is required']
-	},
+  }
 });
 
 module.exports = mongoose.model('OrderInfo', OrderSchema);

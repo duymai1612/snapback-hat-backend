@@ -36,20 +36,20 @@ orderRouter.get(
   }
 );
 
-orderRouter.get(
-  '/neworder',
-  (ctx, next) => {
-    return Order.find({ _id: { $regex: '/^[0-9a-fA-F]{24}$/' }}).then((orders) => {
-      if (orders) {
-        ctx.status = 200;
-        ctx.body = orders[orders.length - 1];
-      } else {
-        ctx.status = 404;
-        ctx.body = 'Order not found';
-      }
-    });
-  }
-);
+// orderRouter.get(
+//   '/neworder',
+//   (ctx, next) => {
+//     return Order.find({ _id: { $regex: '/^[0-9a-fA-F]{24}$/' }}).then((orders) => {
+//       if (orders) {
+//         ctx.status = 200;
+//         ctx.body = orders[orders.length - 1];
+//       } else {
+//         ctx.status = 404;
+//         ctx.body = 'Order not found';
+//       }
+//     });
+//   }
+// );
 
 orderRouter.post(
   '/',
